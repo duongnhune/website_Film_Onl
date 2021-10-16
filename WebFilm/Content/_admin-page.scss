@@ -1,0 +1,39 @@
+/*********** Admin Page ***********/
+#datatable {
+    color: $color-grey !important;
+
+    thead,
+    tfoot {
+        background: #1b2e4b !important;
+    }
+
+    tr {
+        background: transparent !important;
+        color: $color-grey !important;
+    }
+}
+
+.admin-container {
+    padding-top: 60px;
+    margin: 4rem 0;
+}
+
+.note-editable {
+    color: $color-grey !important;
+}
+
+.checkbox__the-loai {
+    width: 100%;
+
+    label {
+        margin-left: .5rem;
+    }
+
+    tbody {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,157 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebFilm.SiteMaster" %>
+
+<%@ Register Src="~/Controls/User/Menu/MenuTheLoaiControl.ascx" TagPrefix="uc1" TagName="MenuTheLoaiControl" %>
+<%@ Register Src="~/Controls/User/Menu/MenuQuocGiaControl.ascx" TagPrefix="uc1" TagName="MenuQuocGiaControl" %>
+<%@ Register Src="~/Controls/User/Account/LoginControl.ascx" TagPrefix="uc1" TagName="LoginControl" %>
+
+<!DOCTYPE html>
+
+<html lang="vi">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+
+    <!-- Boostrap v5.0.2 CSS -->
+    <link rel="stylesheet" href="/Content/bootstrap.min.css" runat="server">
+
+    <!-- Bootstrap JS -->
+    <script src="/Scripts/bootstrap.min.js"></script>
+
+    <!-- Boostrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/56a30c9aae.js" crossorigin="anonymous"></script>
+
+    <!-- Swiper bundle CSS & JS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- jQuery -->
+    <script src="/Scripts/jquery-3.6.0.min.js"></script>
+
+    <!-- Main Style -->
+    <link rel="stylesheet" href="/Content/style.css" runat="server" />
+
+    <asp:ContentPlaceHolder ID="plhHead" runat="server" />
+
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="header">
+            <div class="logo">
+                <i class="fas fa-bars" id="toggleNavbar"></i>
+                <a href="/" class="logo-img">
+                    <img src="/Upload/Logo/logo.png" alt="Logo 123Play" />
+                </a>
+            </div>
+            <div class="form-search">
+                <label for="search-bar">
+                    <i class="fas fa-search"></i>
+                </label>
+                <input type="text" name="search-bar" id="search-bar" placeholder="Search here..." />
+            </div>
+            <div class="login-group">
+                <a href="#" class="login">
+                    <i class="far fa-user-circle"></i>
+                    <p>Tài khoản</p>
+                    <ul class="dropdown-account" aria-labelledby="dropdownAccount">
+                        <%if (Session["username"] == null)
+                            {%>
+                        <li><a href="#" id="lnkLogin" onclick="showLoginModal()">Đăng nhập</a></li>
+                        <%}
+                            else
+                            { %>
+                        <li><a href="#">Tài khoản</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a href="#">Đăng xuất</a></li>
+                        <%} %>
+                    </ul>
+                </a>
+            </div>
+        </div>
+        <div class="main-container">
+            <div id="overlay" style="display: none;"></div>
+            <nav
+                class="navbar navbar-expand-md navbar-nav-scroll"
+                style="--bs-scroll-height: calc(100vh - 60px)">
+                <ul class="navbar-nav">
+                    <li class="navbar-item">
+                        <a href="#" class="nav-link navbar-item__title">
+                            <div class="form-search">
+                                <label for="search-bar-mobile">
+                                    <i class="fas fa-search"></i>
+                                </label>
+                                <input type="text" name="search-bar" id="search-bar-mobile" placeholder="Search here..." />
+                            </div>
+                        </a>
+                    </li>
+                    <li class="navbar-item active">
+                        <a href="/" class="nav-link navbar-item__title">Trang chủ</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="?index=phim-le" class="nav-link navbar-item__title">Phim Lẻ</a>
+                    </li>
+                    <%--<li class="navbar-item">
+                        <a href="#" class="nav-link navbar-item__title">Phim Bộ </a>
+                    </li>--%>
+                    <li class="navbar-item">
+                        <a href="#" class="nav-link navbar-item__title">Thể Loại
+                <i class="bi bi-caret-right-fill"></i>
+                        </a>
+                        <ul class="navbar-nav navbar-item__child">
+                            <uc1:MenuTheLoaiControl runat="server" ID="MenuTheLoaiControl" />
+                        </ul>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="nav-link navbar-item__title">Quốc Gia
+                <i class="bi bi-caret-right-fill"></i>
+                        </a>
+                        <ul class="navbar-nav navbar-item__child">
+                            <uc1:MenuQuocGiaControl runat="server" ID="MenuQuocGiaControl" />
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="main-content">
+                <div class="content">
+                    <form runat="server" method="post">
+                        <asp:ContentPlaceHolder ID="plhContent" runat="server" />
+                        <uc1:LoginControl runat="server" ID="LoginControl" />
+                    </form>
+                </div>
+
+                <footer>
+                    <a href="/" class="logo-img">
+                        <img src="/Upload/Logo/logo.png" alt="Logo 123Play" />
+                    </a>
+                    <p>
+                        Copyright © 2021 - 123 Play.<br />
+                        Đồ án kết thúc học phần <b>Lập trình Web</b><br />
+                        Sinh viên thực hiện:
+                <a href="https://www.facebook.com/doantuankiett"><b>Đoàn Tuấn Kiệt</b></a>
+                        &
+                <a href="https://www.facebook.com/nhu.duong.5872"><b>Dương Thị Huỳnh Như</b></a>
+                    </p>
+                    <div class="social-links">
+                        <a href="mailto:contact@123play.com" target="_blank"><i class="fa fa-envelope"></i></a>
+                        <a href="https://www.facebook.com/123play" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/123play" target="_blank">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="/Scripts/script.js"></script>
+</body>
+</html>

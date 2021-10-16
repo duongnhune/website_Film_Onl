@@ -1,0 +1,45 @@
+/***** Footer *****/
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+    p {
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    .social-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .fa {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 1rem;
+            width: 1.5rem;
+            height: 1.5rem;
+            font-size: 0.8rem;
+            background: $color-grey;
+            color: $color-dark-blue;
+            border-radius: 50%;
+        }
+
+        .fa:hover {
+            background: rgb(67, 97, 238);
+        }
+
+        a:last-child .fa {
+            margin-right: 0;
+        }
+    }
+
+    a:hover {
+        color: rgb(67, 97, 238);
+    }
+}

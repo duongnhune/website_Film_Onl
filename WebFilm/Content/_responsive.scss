@@ -1,0 +1,85 @@
+/*********** Responsive ***********/
+@media screen and (max-width: 992px) {
+    body {
+        line-height: 1.4;
+    }
+
+    #toggleNavbar {
+        display: block !important;
+    }
+
+    .navbar {
+        display: none;
+        z-index: 99;
+
+        .form-search {
+            display: flex;
+        }
+    }
+
+    .main-container {
+        padding: 0 2rem;
+    }
+
+    .main-content {
+        width: 100% !important;
+        left: 0 !important;
+    }
+
+    .movie-card__img {
+        height: 230px !important;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    html {
+        font-size: 14px !important;
+    }
+
+    .movie-card__img {
+        height: 170px !important;
+    }
+
+    .list-movie__grid {
+        grid-template-columns: repeat(auto-fit, 23%) !important;
+    }
+
+    #swiper-banner,
+    #swiper-banner .swiper-slide {
+        height: 200px !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .list-movie__grid {
+        grid-template-columns: repeat(auto-fit, 23%) !important;
+    }
+
+    .header .form-search {
+        display: none;
+    }
+}
+
+@media screen and (max-width:480px) {
+    html {
+        font-size: 12px !important;
+    }
+
+    .logo a {
+        width: 100px;
+    }
+
+    .logo img {
+        width: 100%;
+        height: auto;
+    }
+
+    #swiper-banner,
+    #swiper-banner .swiper-slide {
+        height: 150px !important;
+    }
+
+    .list-movie__grid {
+        grid-template-columns: repeat(auto-fit, 45%) !important;
+    }
+}

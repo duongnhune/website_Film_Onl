@@ -1,0 +1,132 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteAdmin.master.cs" Inherits="WebFilm.SiteAdmin" %>
+
+<!DOCTYPE html>
+
+<html lang="vi">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quản trị 123 Play</title>
+
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+
+    <!-- Boostrap v5.0.2 CSS -->
+    <link rel="stylesheet" href="/Content/bootstrap.min.css">
+
+    <!-- Bootstrap JS -->
+    <script src="/Scripts/bootstrap.min.js"></script>
+
+    <!-- Boostrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/56a30c9aae.js" crossorigin="anonymous"></script>
+
+    <!-- Swiper bundle CSS & JS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- DataTables css -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.24/af-2.3.6/b-1.7.0/b-colvis-1.7.0/fc-3.3.2/fh-3.1.8/kt-2.6.1/r-2.2.7/rg-1.1.2/rr-1.2.7/sc-2.0.3/sb-1.0.1/sp-1.2.2/sl-1.3.3/datatables.min.css" />
+
+    <!-- Main Style -->
+    <link rel="stylesheet" href="/Content/style.css" />
+
+    <!-- jQuery -->
+    <script src="/Scripts/jquery-3.6.0.min.js"></script>
+
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="header">
+            <div class="logo">
+                <a href="/Dashboard" class="logo-img">
+                    <img src="/Upload/Logo/logo.png" alt="Logo 123Play" />
+                </a>
+            </div>
+            <a href="/Dashboard">
+                <h3 style="font-weight: 700;">TRANG QUẢN TRỊ 123 PLAY</h3>
+            </a>
+            <div class="login-group">
+                <a href="/Dashboard" class="login">
+                    <i class="far fa-user-circle"></i>
+                    <p>Xin chào, <%=Session["admin"] %></p>
+                </a>
+            </div>
+        </div>
+        <div class="main-container">
+            <nav class="navbar navbar-expand-md navbar-nav-scroll" style="--bs-scroll-height: calc(100vh - 60px);">
+                <ul class="navbar-nav">
+                    <li class="navbar-item active">
+                        <a href="/Dashboard/?dashboard=tai-khoan" class="nav-link navbar-item__title">Tài khoản </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="/Dashboard/?dashboard=danh-muc" class="nav-link navbar-item__title">Danh mục </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="/Dashboard/?dashboard=phim" class="nav-link navbar-item__title">Phim </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="/Dashboard/?dashboard=the-loai" class="nav-link navbar-item__title">Thể loại </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="/Dashboard/?dashboard=quoc-gia" class="nav-link navbar-item__title">Quốc gia </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="/Dashboard/?dashboard=dao-dien" class="nav-link navbar-item__title">Đạo diễn </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="/Dashboard/?dashboard=dien-vien" class="nav-link navbar-item__title">Diễn viên </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="main-content">
+                <div class="content">
+                    <form runat="server" method="post">
+                        <asp:ContentPlaceHolder ID="plhContent" runat="server"></asp:ContentPlaceHolder>
+                    </form>
+                </div>
+
+                <footer>
+                    <a href="/Dashboard" class="logo-img">
+                        <img src="/Upload/Logo/logo.png" alt="Logo 123Play" />
+                    </a>
+                    <p>
+                        Copyright © 2021 - 123 Play.<br />
+                        Đồ án kết thúc học phần <b>Lập trình Web</b><br />
+                        Sinh viên thực hiện:
+                <a href="https://www.facebook.com/doantuankiett"><b>Đoàn Tuấn Kiệt</b></a>
+                        &
+                <a href="https://www.facebook.com/nhu.duong.5872"><b>Dương Thị Huỳnh Như</b></a>
+                    </p>
+                    <div class="social-links">
+                        <a href="mailto:contact@123play.com" target="_blank"><i class="fa fa-envelope"></i></a>
+                        <a href="https://www.facebook.com/123play" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/123play" target="_blank">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <!-- Swiper Bundle-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- DataTables js -->
+    <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.24/af-2.3.6/b-1.7.0/b-colvis-1.7.0/fc-3.3.2/fh-3.1.8/kt-2.6.1/r-2.2.7/rg-1.1.2/rr-1.2.7/sc-2.0.3/sb-1.0.1/sp-1.2.2/sl-1.3.3/datatables.min.js"></script>
+
+    <!-- Script -->
+    <script src="/Scripts/script.js"></script>
+
+    <!--Init #datatable from DataTables -->
+    <script>
+        $(document).ready(function () {
+            $('#datatable').DataTable({
+                select: true
+            });
+        });
+    </script>
+</body>
+</html>

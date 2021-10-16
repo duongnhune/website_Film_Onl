@@ -1,0 +1,18 @@
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm_DAL\bin\Debug\WebFilm_DAL.dll
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm_DAL\bin\Debug\WebFilm_DAL.pdb
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm_DAL\obj\Debug\WebFilm_DAL.csproj.AssemblyReference.cache
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm_DAL\obj\Debug\WebFilm_DAL.csproj.CoreCompileInputs.cache
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm_DAL\obj\Debug\WebFilm_DAL.dll
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm_DAL\obj\Debug\WebFilm_DAL.pdb
+C:\Users\doant\source\repos\WebFilm\WebFilm_DAL\bin\Debug\WebFilm_DAL.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm_DAL\bin\Debug\WebFilm_DAL.pdb
+C:\Users\doant\source\repos\WebFilm\WebFilm_DAL\obj\Debug\WebFilm_DAL.csproj.AssemblyReference.cache
+C:\Users\doant\source\repos\WebFilm\WebFilm_DAL\obj\Debug\WebFilm_DAL.csproj.CoreCompileInputs.cache
+C:\Users\doant\source\repos\WebFilm\WebFilm_DAL\obj\Debug\WebFilm_DAL.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm_DAL\obj\Debug\WebFilm_DAL.pdb
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm_DAL\bin\Debug\WebFilm_DAL.dll
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm_DAL\bin\Debug\WebFilm_DAL.pdb
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm_DAL\obj\Debug\WebFilm_DAL.csprojAssemblyReference.cache
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm_DAL\obj\Debug\WebFilm_DAL.csproj.CoreCompileInputs.cache
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm_DAL\obj\Debug\WebFilm_DAL.dll
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm_DAL\obj\Debug\WebFilm_DAL.pdb

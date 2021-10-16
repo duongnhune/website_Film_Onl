@@ -1,0 +1,183 @@
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\WebFilm.dll.config
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\WebFilm.dll
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\WebFilm.pdb
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\roslyn\csc.exe
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\roslyn\csc.exe.config
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\roslyn\csc.rsp
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\roslyn\csi.exe
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\roslyn\csi.rsp
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\roslyn\System.AppContext.dll
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\roslyn\vbc.exe
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\roslyn\vbc.exe.config
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\roslyn\vbc.rsp
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\roslyn\VBCSCompiler.exe
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\Antlr3.Runtime.dll
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\Newtonsoft.Json.dll
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\System.Web.Optimization.dll
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\WebFilm_DAL.dll
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\WebGrease.dll
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\WebFilm_DAL.pdb
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\System.Web.Optimization.xml
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\Newtonsoft.Json.xml
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\Antlr3.Runtime.pdb
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\obj\Debug\WebFilm.csproj.AssemblyReference.cache
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\obj\Debug\WebFilm.csproj.CoreCompileInputs.cache
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\obj\Debug\WebFilm.csproj.CopyComplete
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\obj\Debug\WebFilm.dll
+C:\Users\doant\OneDrive - Ho Chi Minh city University of Food Industry\Projects\1. Do an HK4\LTWeb\WebFilm\WebFilm\obj\Debug\WebFilm.pdb
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\WebFilm.dll.config
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\WebFilm.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\WebFilm.pdb
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\csc.exe
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\csc.exe.config
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\csc.rsp
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\csi.exe
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\csi.exe.config
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\csi.rsp
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\System.AppContext.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\System.Console.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\System.IO.Compression.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\System.Net.Http.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\System.Net.Sockets.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\System.ValueTuple.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\System.Xml.XPath.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\vbc.exe
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\vbc.exe.config
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\vbc.rsp
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\VBCSCompiler.exe
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\Antlr3.Runtime.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\Newtonsoft.Json.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\System.Web.Optimization.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\WebFilm_DAL.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\WebGrease.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\WebFilm_DAL.pdb
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\Antlr3.Runtime.pdb
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\Newtonsoft.Json.xml
+C:\Users\doant\source\repos\WebFilm\WebFilm\bin\System.Web.Optimization.xml
+C:\Users\doant\source\repos\WebFilm\WebFilm\obj\Debug\WebFilm.csproj.AssemblyReference.cache
+C:\Users\doant\source\repos\WebFilm\WebFilm\obj\Debug\WebFilm.csproj.CoreCompileInputs.cache
+C:\Users\doant\source\repos\WebFilm\WebFilm\obj\Debug\WebFilm.csproj.CopyComplete
+C:\Users\doant\source\repos\WebFilm\WebFilm\obj\Debug\WebFilm.dll
+C:\Users\doant\source\repos\WebFilm\WebFilm\obj\Debug\WebFilm.pdb
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\WebFilm.dll.config
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\WebFilm.dll
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\WebFilm.pdb
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\roslyn\csc.exe
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\roslyn\csc.exe.config
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\roslyn\csc.rsp
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\roslyn\csi.exe
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\roslyn\csi.exe.config
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\roslyn\csi.rsp
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\roslyn\System.Buffers.dll
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\roslyn\System.Memory.dll
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\roslyn\vbc.exe
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\roslyn\vbc.exe.config
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\roslyn\vbc.rsp
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\roslyn\VBCSCompiler.exe
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\Antlr3.Runtime.dll
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\Newtonsoft.Json.dll
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\System.Web.Optimization.dll
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\WebFilm_DAL.dll
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\WebGrease.dll
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\WebFilm_DAL.pdb
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\Antlr3.Runtime.pdb
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\Newtonsoft.Json.xml
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\bin\System.Web.Optimization.xml
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\obj\Debug\WebFilm.csprojAssemblyReference.cache
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\obj\Debug\WebFilm.csproj.CoreCompileInputs.cache
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\obj\Debug\WebFilm.csproj.CopyComplete
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\obj\Debug\WebFilm.dll
+C:\Users\Huynh Nhu\Desktop\WebFilm-main\WebFilm\obj\Debug\WebFilm.pdb

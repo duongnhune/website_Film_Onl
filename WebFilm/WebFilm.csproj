@@ -1,0 +1,728 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{07F73CA4-FE2C-440E-AF15-033913CAF827}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebFilm</RootNamespace>
+    <AssemblyName>WebFilm</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44380</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.jQuery, Version=3.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\AspNet.ScriptManager.jQuery.3.6.0\lib\net45\AspNet.ScriptManager.jQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.FriendlyUrls, Version=1.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net45\Microsoft.AspNet.FriendlyUrls.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Web.Optimization.WebForms, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.WebForms.1.1.3\lib\net45\Microsoft.AspNet.Web.Optimization.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=3.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ScriptManager.MSAjax, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.MSAjax.5.0.0\lib\net45\Microsoft.ScriptManager.MSAjax.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.WebForms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.WebForms.5.0.0\lib\net45\Microsoft.ScriptManager.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WebGrease, Version=1.6.5135.21930, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap-grid.rtl.css" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css" />
+    <Content Include="Content\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap-reboot.min.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css" />
+    <Content Include="Content\bootstrap-utilities.css" />
+    <Content Include="Content\bootstrap-utilities.min.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bootstrap.rtl.css" />
+    <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\style.css" />
+    <Content Include="Content\summernote\lang\summernote-ar-AR.js" />
+    <Content Include="Content\summernote\lang\summernote-ar-AR.min.js" />
+    <Content Include="Content\summernote\lang\summernote-ar-AR.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-az-AZ.js" />
+    <Content Include="Content\summernote\lang\summernote-az-AZ.min.js" />
+    <Content Include="Content\summernote\lang\summernote-az-AZ.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-bg-BG.js" />
+    <Content Include="Content\summernote\lang\summernote-bg-BG.min.js" />
+    <Content Include="Content\summernote\lang\summernote-bg-BG.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-ca-ES.js" />
+    <Content Include="Content\summernote\lang\summernote-ca-ES.min.js" />
+    <Content Include="Content\summernote\lang\summernote-ca-ES.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-cs-CZ.js" />
+    <Content Include="Content\summernote\lang\summernote-cs-CZ.min.js" />
+    <Content Include="Content\summernote\lang\summernote-cs-CZ.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-da-DK.js" />
+    <Content Include="Content\summernote\lang\summernote-da-DK.min.js" />
+    <Content Include="Content\summernote\lang\summernote-da-DK.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-de-DE.js" />
+    <Content Include="Content\summernote\lang\summernote-de-DE.min.js" />
+    <Content Include="Content\summernote\lang\summernote-de-DE.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-el-GR.js" />
+    <Content Include="Content\summernote\lang\summernote-el-GR.min.js" />
+    <Content Include="Content\summernote\lang\summernote-el-GR.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-es-ES.js" />
+    <Content Include="Content\summernote\lang\summernote-es-ES.min.js" />
+    <Content Include="Content\summernote\lang\summernote-es-ES.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-es-EU.js" />
+    <Content Include="Content\summernote\lang\summernote-es-EU.min.js" />
+    <Content Include="Content\summernote\lang\summernote-es-EU.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-fa-IR.js" />
+    <Content Include="Content\summernote\lang\summernote-fa-IR.min.js" />
+    <Content Include="Content\summernote\lang\summernote-fa-IR.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-fi-FI.js" />
+    <Content Include="Content\summernote\lang\summernote-fi-FI.min.js" />
+    <Content Include="Content\summernote\lang\summernote-fi-FI.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-fr-FR.js" />
+    <Content Include="Content\summernote\lang\summernote-fr-FR.min.js" />
+    <Content Include="Content\summernote\lang\summernote-fr-FR.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-gl-ES.js" />
+    <Content Include="Content\summernote\lang\summernote-gl-ES.min.js" />
+    <Content Include="Content\summernote\lang\summernote-gl-ES.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-he-IL.js" />
+    <Content Include="Content\summernote\lang\summernote-he-IL.min.js" />
+    <Content Include="Content\summernote\lang\summernote-he-IL.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-hr-HR.js" />
+    <Content Include="Content\summernote\lang\summernote-hr-HR.min.js" />
+    <Content Include="Content\summernote\lang\summernote-hr-HR.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-hu-HU.js" />
+    <Content Include="Content\summernote\lang\summernote-hu-HU.min.js" />
+    <Content Include="Content\summernote\lang\summernote-hu-HU.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-id-ID.js" />
+    <Content Include="Content\summernote\lang\summernote-id-ID.min.js" />
+    <Content Include="Content\summernote\lang\summernote-id-ID.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-it-IT.js" />
+    <Content Include="Content\summernote\lang\summernote-it-IT.min.js" />
+    <Content Include="Content\summernote\lang\summernote-it-IT.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-ja-JP.js" />
+    <Content Include="Content\summernote\lang\summernote-ja-JP.min.js" />
+    <Content Include="Content\summernote\lang\summernote-ja-JP.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-ko-KR.js" />
+    <Content Include="Content\summernote\lang\summernote-ko-KR.min.js" />
+    <Content Include="Content\summernote\lang\summernote-ko-KR.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-lt-LT.js" />
+    <Content Include="Content\summernote\lang\summernote-lt-LT.min.js" />
+    <Content Include="Content\summernote\lang\summernote-lt-LT.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-lt-LV.js" />
+    <Content Include="Content\summernote\lang\summernote-lt-LV.min.js" />
+    <Content Include="Content\summernote\lang\summernote-lt-LV.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-mn-MN.js" />
+    <Content Include="Content\summernote\lang\summernote-mn-MN.min.js" />
+    <Content Include="Content\summernote\lang\summernote-mn-MN.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-nb-NO.js" />
+    <Content Include="Content\summernote\lang\summernote-nb-NO.min.js" />
+    <Content Include="Content\summernote\lang\summernote-nb-NO.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-nl-NL.js" />
+    <Content Include="Content\summernote\lang\summernote-nl-NL.min.js" />
+    <Content Include="Content\summernote\lang\summernote-nl-NL.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-pl-PL.js" />
+    <Content Include="Content\summernote\lang\summernote-pl-PL.min.js" />
+    <Content Include="Content\summernote\lang\summernote-pl-PL.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-pt-BR.js" />
+    <Content Include="Content\summernote\lang\summernote-pt-BR.min.js" />
+    <Content Include="Content\summernote\lang\summernote-pt-BR.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-pt-PT.js" />
+    <Content Include="Content\summernote\lang\summernote-pt-PT.min.js" />
+    <Content Include="Content\summernote\lang\summernote-pt-PT.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-ro-RO.js" />
+    <Content Include="Content\summernote\lang\summernote-ro-RO.min.js" />
+    <Content Include="Content\summernote\lang\summernote-ro-RO.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-ru-RU.js" />
+    <Content Include="Content\summernote\lang\summernote-ru-RU.min.js" />
+    <Content Include="Content\summernote\lang\summernote-ru-RU.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-sk-SK.js" />
+    <Content Include="Content\summernote\lang\summernote-sk-SK.min.js" />
+    <Content Include="Content\summernote\lang\summernote-sk-SK.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-sl-SI.js" />
+    <Content Include="Content\summernote\lang\summernote-sl-SI.min.js" />
+    <Content Include="Content\summernote\lang\summernote-sl-SI.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-sr-RS-Latin.js" />
+    <Content Include="Content\summernote\lang\summernote-sr-RS-Latin.min.js" />
+    <Content Include="Content\summernote\lang\summernote-sr-RS-Latin.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-sr-RS.js" />
+    <Content Include="Content\summernote\lang\summernote-sr-RS.min.js" />
+    <Content Include="Content\summernote\lang\summernote-sr-RS.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-sv-SE.js" />
+    <Content Include="Content\summernote\lang\summernote-sv-SE.min.js" />
+    <Content Include="Content\summernote\lang\summernote-sv-SE.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-ta-IN.js" />
+    <Content Include="Content\summernote\lang\summernote-ta-IN.min.js" />
+    <Content Include="Content\summernote\lang\summernote-ta-IN.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-th-TH.js" />
+    <Content Include="Content\summernote\lang\summernote-th-TH.min.js" />
+    <Content Include="Content\summernote\lang\summernote-th-TH.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-tr-TR.js" />
+    <Content Include="Content\summernote\lang\summernote-tr-TR.min.js" />
+    <Content Include="Content\summernote\lang\summernote-tr-TR.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-uk-UA.js" />
+    <Content Include="Content\summernote\lang\summernote-uk-UA.min.js" />
+    <Content Include="Content\summernote\lang\summernote-uk-UA.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-uz-UZ.js" />
+    <Content Include="Content\summernote\lang\summernote-uz-UZ.min.js" />
+    <Content Include="Content\summernote\lang\summernote-uz-UZ.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-vi-VN.js" />
+    <Content Include="Content\summernote\lang\summernote-vi-VN.min.js" />
+    <Content Include="Content\summernote\lang\summernote-vi-VN.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-zh-CN.js" />
+    <Content Include="Content\summernote\lang\summernote-zh-CN.min.js" />
+    <Content Include="Content\summernote\lang\summernote-zh-CN.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\lang\summernote-zh-TW.js" />
+    <Content Include="Content\summernote\lang\summernote-zh-TW.min.js" />
+    <Content Include="Content\summernote\lang\summernote-zh-TW.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\plugin\databasic\summernote-ext-databasic.css" />
+    <Content Include="Content\summernote\plugin\databasic\summernote-ext-databasic.js" />
+    <Content Include="Content\summernote\plugin\hello\summernote-ext-hello.js" />
+    <Content Include="Content\summernote\plugin\specialchars\summernote-ext-specialchars.js" />
+    <Content Include="Content\summernote\summernote-bs4.css" />
+    <Content Include="Content\summernote\summernote-bs4.js" />
+    <Content Include="Content\summernote\summernote-bs4.min.css" />
+    <Content Include="Content\summernote\summernote-bs4.min.js" />
+    <Content Include="Content\summernote\summernote-bs4.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\summernote-lite.css" />
+    <Content Include="Content\summernote\summernote-lite.js" />
+    <Content Include="Content\summernote\summernote-lite.min.css" />
+    <Content Include="Content\summernote\summernote-lite.min.js" />
+    <Content Include="Content\summernote\summernote-lite.min.js.LICENSE.txt" />
+    <Content Include="Content\summernote\summernote.css" />
+    <Content Include="Content\summernote\summernote.js" />
+    <Content Include="Content\summernote\summernote.min.css" />
+    <Content Include="Content\summernote\summernote.min.js" />
+    <Content Include="Content\summernote\summernote.min.js.LICENSE.txt" />
+    <Content Include="Controls\Admin\Account\AccountControl.ascx" />
+    <Content Include="Controls\Admin\Actors\ActorsControl.ascx" />
+    <Content Include="Controls\Admin\adminControl.ascx" />
+    <Content Include="Controls\Admin\Catalogue\CatalogueControl.ascx" />
+    <Content Include="Controls\Admin\Categories\CategoriesControl.ascx" />
+    <Content Include="Controls\Admin\Directors\DirectorsControl.ascx" />
+    <Content Include="Controls\Admin\Movie\MovieControl.ascx" />
+    <Content Include="Controls\Admin\Nation\NationControl.ascx" />
+    <Content Include="Controls\User\Account\LoginControl.ascx" />
+    <Content Include="Controls\User\Banner\BannerControl.ascx" />
+    <Content Include="Controls\User\Home\HomeControl.ascx" />
+    <Content Include="Controls\User\Menu\MenuQuocGiaControl.ascx" />
+    <Content Include="Controls\User\Menu\MenuTheLoaiControl.ascx" />
+    <Content Include="Controls\User\Movie\MovieDetailControl.ascx" />
+    <Content Include="Controls\User\Movie\MovieListByCategoryControl.ascx" />
+    <Content Include="Controls\User\Movie\MovieListByNationControl.ascx" />
+    <Content Include="Controls\User\Movie\MovieListControl.ascx" />
+    <Content Include="Controls\User\Movie\MovieListSwiperControl.ascx" />
+    <Content Include="Controls\User\userControl.ascx" />
+    <Content Include="Controls\Utilities\Modal\ModalFailure.ascx" />
+    <Content Include="Controls\Utilities\Modal\ModalSuccess.ascx" />
+    <Content Include="Dashboard.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\style.css.map" />
+    <Content Include="Content\style.scss" />
+    <Content Include="Content\summernote\font\summernote.eot" />
+    <Content Include="Content\summernote\font\summernote.ttf" />
+    <Content Include="Content\summernote\font\summernote.woff" />
+    <Content Include="Content\summernote\font\summernote.woff2" />
+    <Content Include="Content\summernote\summernote-bs4.js.map" />
+    <Content Include="Content\summernote\summernote-bs4.min.js.map" />
+    <Content Include="Content\summernote\summernote-lite.js.map" />
+    <Content Include="Content\summernote\summernote-lite.min.js.map" />
+    <Content Include="Content\summernote\summernote.js.map" />
+    <Content Include="Content\summernote\summernote.min.js.map" />
+    <Content Include="Content\_admin-page.scss" />
+    <Content Include="Content\_footer.scss" />
+    <Content Include="Content\_general.scss" />
+    <Content Include="Content\_header.scss" />
+    <Content Include="Content\_main-content.scss" />
+    <Content Include="Content\_navigation.scss" />
+    <Content Include="Content\_responsive.scss" />
+    <Content Include="LoginAdmin.aspx" />
+    <Content Include="Scripts\bootstrap.bundle.js" />
+    <Content Include="Scripts\bootstrap.bundle.min.js" />
+    <Content Include="Scripts\bootstrap.esm.js" />
+    <Content Include="Scripts\bootstrap.esm.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Content\bootstrap.rtl.min.css.map" />
+    <Content Include="Content\bootstrap.rtl.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.css.map" />
+    <Content Include="Content\bootstrap-utilities.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.css.map" />
+    <Content Include="Content\bootstrap-reboot.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.css.map" />
+    <Content Include="Content\bootstrap-grid.min.css.map" />
+    <Content Include="Content\bootstrap-grid.css.map" />
+    <None Include="packages.config" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\bootstrap.min.js.map" />
+    <Content Include="Scripts\bootstrap.js.map" />
+    <Content Include="Scripts\bootstrap.esm.min.js.map" />
+    <Content Include="Scripts\bootstrap.esm.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.min.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.js.map" />
+    <None Include="Scripts\jquery-3.6.0.intellisense.js" />
+    <Content Include="Scripts\jquery-3.6.0.js" />
+    <Content Include="Scripts\jquery-3.6.0.min.js" />
+    <Content Include="Scripts\jquery-3.6.0.slim.js" />
+    <Content Include="Scripts\jquery-3.6.0.slim.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\script.js" />
+    <Content Include="Scripts\WebForms\DetailsView.js" />
+    <Content Include="Scripts\WebForms\Focus.js" />
+    <Content Include="Scripts\WebForms\GridView.js" />
+    <Content Include="Scripts\WebForms\Menu.js" />
+    <Content Include="Scripts\WebForms\MenuStandards.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+    <Content Include="Scripts\WebForms\SmartNav.js" />
+    <Content Include="Scripts\WebForms\TreeView.js" />
+    <Content Include="Scripts\WebForms\WebForms.js" />
+    <Content Include="Scripts\WebForms\WebParts.js" />
+    <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="Site.Master" />
+    <Content Include="Upload\Banner\10714_105_100002.jpg" />
+    <Content Include="Upload\Banner\2048-x-682_1618547409484.jpg" />
+    <Content Include="Upload\Banner\60960a9d196db_huvoban-1920_660.jpg" />
+    <Content Include="Upload\Banner\9aa9607cd0844a1a863d14c61d8f2ef1.jpg" />
+    <Content Include="Upload\Image\10000.jpg" />
+    <Content Include="Upload\Image\10001.jpg" />
+    <Content Include="Upload\Image\10002.jpg" />
+    <Content Include="Upload\Image\10003.jpg" />
+    <Content Include="Upload\Image\10004.jpg" />
+    <Content Include="Upload\Image\10005.jpg" />
+    <Content Include="Upload\Image\10006.jpg" />
+    <Content Include="Upload\Image\10007.jpg" />
+    <Content Include="Upload\Image\10008.jpg" />
+    <Content Include="Upload\Image\10009.jpg" />
+    <Content Include="Upload\Image\10010.jpg" />
+    <Content Include="Upload\Image\10011.jpg" />
+    <Content Include="Upload\Image\10012.jpg" />
+    <Content Include="Upload\Image\10013.jpg" />
+    <Content Include="Upload\Image\10014.jpg" />
+    <Content Include="Upload\Image\10015.jpg" />
+    <Content Include="Upload\Image\10016.jpg" />
+    <Content Include="Upload\Image\10017.jpg" />
+    <Content Include="Upload\Image\10018.jpg" />
+    <Content Include="Upload\Image\10019.jpg" />
+    <Content Include="Upload\Image\10020.jpg" />
+    <Content Include="Upload\Image\10021.jpg" />
+    <Content Include="Upload\Image\10022.jpg" />
+    <Content Include="Upload\Image\10023.jpg" />
+    <Content Include="Upload\Image\10024.jpg" />
+    <Content Include="Upload\Image\10025.jpg" />
+    <Content Include="Upload\Image\10026.jpg" />
+    <Content Include="Upload\Image\10027.jpg" />
+    <Content Include="Upload\Image\10028.jpg" />
+    <Content Include="Upload\Image\10029.jpg" />
+    <Content Include="Upload\Image\10030.jpg" />
+    <Content Include="Upload\Image\10031.jpg" />
+    <Content Include="Upload\Image\10032.jpg" />
+    <Content Include="Upload\Image\10033.jpg" />
+    <Content Include="Upload\Image\10034.jpg" />
+    <Content Include="Upload\Image\10035.jpg" />
+    <Content Include="Upload\Image\10036.jpg" />
+    <Content Include="Upload\Image\10037.jpg" />
+    <Content Include="Upload\Image\10038.jpg" />
+    <Content Include="Upload\Image\10039.jpg" />
+    <Content Include="Upload\Image\10040.jpg" />
+    <Content Include="Upload\Image\10041.jpg" />
+    <Content Include="Upload\Image\10042.jpg" />
+    <Content Include="Upload\Image\10043.jpg" />
+    <Content Include="Upload\Image\10044.jpg" />
+    <Content Include="Upload\Image\10045.jpg" />
+    <Content Include="Upload\Image\10046.jpg" />
+    <Content Include="Upload\Image\10047.jpg" />
+    <Content Include="Upload\Image\10048.jpg" />
+    <Content Include="Upload\Image\10049.jpg" />
+    <Content Include="Upload\Image\10050.jpg" />
+    <Content Include="Upload\Image\10051.jpg" />
+    <Content Include="Upload\Image\10052.jpg" />
+    <Content Include="Upload\Image\10053.jpg" />
+    <Content Include="Upload\Image\10054.jpg" />
+    <Content Include="Upload\Image\10055.jpg" />
+    <Content Include="Upload\Image\10056.jpg" />
+    <Content Include="Upload\Image\10057.jpg" />
+    <Content Include="Upload\Image\10058.jpg" />
+    <Content Include="Upload\Image\10059.jpg" />
+    <Content Include="Upload\Image\10060.jpg" />
+    <Content Include="Upload\Image\10061.jpg" />
+    <Content Include="Upload\Image\10062.jpg" />
+    <Content Include="Upload\Image\10063.jpg" />
+    <Content Include="Upload\Image\10064.jpg" />
+    <Content Include="Upload\Image\10065.jpg" />
+    <Content Include="Upload\Image\10066.jpg" />
+    <Content Include="Upload\Image\10067.jpg" />
+    <Content Include="Upload\Image\10068.jpg" />
+    <Content Include="Upload\Image\10069.jpg" />
+    <Content Include="Upload\Image\10070.jpg" />
+    <Content Include="Upload\Image\10071.jpg" />
+    <Content Include="Upload\Image\10072.jpg" />
+    <Content Include="Upload\Image\10073.jpg" />
+    <Content Include="Upload\Image\10074.jpg" />
+    <Content Include="Upload\Image\10075.jpg" />
+    <Content Include="Upload\Image\10076.jpg" />
+    <Content Include="Upload\Image\10077.jpg" />
+    <Content Include="Upload\Image\10078.jpg" />
+    <Content Include="Upload\Image\10079.jpg" />
+    <Content Include="Upload\Image\10080.jpg" />
+    <Content Include="Upload\Image\10081.jpg" />
+    <Content Include="Upload\Image\10082.jpg" />
+    <Content Include="Upload\Image\10083.jpg" />
+    <Content Include="Upload\Image\10084.jpg" />
+    <Content Include="Upload\Image\10085.jpg" />
+    <Content Include="Upload\Image\10086.jpg" />
+    <Content Include="Upload\Image\10087.jpg" />
+    <Content Include="Upload\Image\10088.jpg" />
+    <Content Include="Upload\Image\10089.jpg" />
+    <Content Include="Upload\Image\10090.jpg" />
+    <Content Include="Upload\Image\10091.jpg" />
+    <Content Include="Upload\Image\10092.jpg" />
+    <Content Include="Upload\Image\10093.jpg" />
+    <Content Include="Upload\Image\10094.jpg" />
+    <Content Include="Upload\Image\10095.jpg" />
+    <Content Include="Upload\Image\10096.jpg" />
+    <Content Include="Upload\Image\10097.jpg" />
+    <Content Include="Upload\Image\10098.jpg" />
+    <Content Include="Upload\Image\10099.jpg" />
+    <Content Include="Upload\Image\10100.jpg" />
+    <Content Include="Upload\Image\25052021-031647-tu-xuan-dao.jpg" />
+    <Content Include="Upload\Logo\logo.png" />
+    <Content Include="Web.config" />
+    <Content Include="Bundle.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controls\Admin\Account\AccountControl.ascx.cs">
+      <DependentUpon>AccountControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Admin\Account\AccountControl.ascx.designer.cs">
+      <DependentUpon>AccountControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Admin\Actors\ActorsControl.ascx.cs">
+      <DependentUpon>ActorsControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Admin\Actors\ActorsControl.ascx.designer.cs">
+      <DependentUpon>ActorsControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Admin\adminControl.ascx.cs">
+      <DependentUpon>adminControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Admin\adminControl.ascx.designer.cs">
+      <DependentUpon>adminControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Admin\Catalogue\CatalogueControl.ascx.cs">
+      <DependentUpon>CatalogueControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Admin\Catalogue\CatalogueControl.ascx.designer.cs">
+      <DependentUpon>CatalogueControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Admin\Categories\CategoriesControl.ascx.cs">
+      <DependentUpon>CategoriesControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Admin\Categories\CategoriesControl.ascx.designer.cs">
+      <DependentUpon>CategoriesControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Admin\Directors\DirectorsControl.ascx.cs">
+      <DependentUpon>DirectorsControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Admin\Directors\DirectorsControl.ascx.designer.cs">
+      <DependentUpon>DirectorsControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Admin\Movie\MovieControl.ascx.cs">
+      <DependentUpon>MovieControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Admin\Movie\MovieControl.ascx.designer.cs">
+      <DependentUpon>MovieControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Admin\Nation\NationControl.ascx.cs">
+      <DependentUpon>NationControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Admin\Nation\NationControl.ascx.designer.cs">
+      <DependentUpon>NationControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\User\Account\LoginControl.ascx.cs">
+      <DependentUpon>LoginControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\User\Account\LoginControl.ascx.designer.cs">
+      <DependentUpon>LoginControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\User\Banner\BannerControl.ascx.cs">
+      <DependentUpon>BannerControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\User\Banner\BannerControl.ascx.designer.cs">
+      <DependentUpon>BannerControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\User\Home\HomeControl.ascx.cs">
+      <DependentUpon>HomeControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\User\Home\HomeControl.ascx.designer.cs">
+      <DependentUpon>HomeControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\User\Menu\MenuQuocGiaControl.ascx.cs">
+      <DependentUpon>MenuQuocGiaControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\User\Menu\MenuQuocGiaControl.ascx.designer.cs">
+      <DependentUpon>MenuQuocGiaControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\User\Menu\MenuTheLoaiControl.ascx.cs">
+      <DependentUpon>MenuTheLoaiControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\User\Menu\MenuTheLoaiControl.ascx.designer.cs">
+      <DependentUpon>MenuTheLoaiControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\User\Movie\MovieDetailControl.ascx.cs">
+      <DependentUpon>MovieDetailControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\User\Movie\MovieDetailControl.ascx.designer.cs">
+      <DependentUpon>MovieDetailControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\User\Movie\MovieListByCategoryControl.ascx.cs">
+      <DependentUpon>MovieListByCategoryControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\User\Movie\MovieListByCategoryControl.ascx.designer.cs">
+      <DependentUpon>MovieListByCategoryControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\User\Movie\MovieListByNationControl.ascx.cs">
+      <DependentUpon>MovieListByNationControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\User\Movie\MovieListByNationControl.ascx.designer.cs">
+      <DependentUpon>MovieListByNationControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\User\Movie\MovieListControl.ascx.cs">
+      <DependentUpon>MovieListControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\User\Movie\MovieListControl.ascx.designer.cs">
+      <DependentUpon>MovieListControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\User\Movie\MovieListSwiperControl.ascx.cs">
+      <DependentUpon>MovieListSwiperControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\User\Movie\MovieListSwiperControl.ascx.designer.cs">
+      <DependentUpon>MovieListSwiperControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\User\userControl.ascx.cs">
+      <DependentUpon>userControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\User\userControl.ascx.designer.cs">
+      <DependentUpon>userControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Utilities\Modal\ModalFailure.ascx.cs">
+      <DependentUpon>ModalFailure.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Utilities\Modal\ModalFailure.ascx.designer.cs">
+      <DependentUpon>ModalFailure.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Utilities\Modal\ModalSuccess.ascx.cs">
+      <DependentUpon>ModalSuccess.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Utilities\Modal\ModalSuccess.ascx.designer.cs">
+      <DependentUpon>ModalSuccess.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="LoginAdmin.aspx.cs">
+      <DependentUpon>LoginAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginAdmin.aspx.designer.cs">
+      <DependentUpon>LoginAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SiteAdmin.Master.cs">
+      <DependentUpon>SiteAdmin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteAdmin.Master.designer.cs">
+      <DependentUpon>SiteAdmin.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SiteAdmin.Master" />
+    <Content Include="Scripts\jquery-3.6.0.slim.min.map" />
+    <Content Include="Scripts\jquery-3.6.0.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WebFilm_DAL\WebFilm_DAL.csproj">
+      <Project>{f24bd302-b3a6-486a-bf87-844e9d26fb87}</Project>
+      <Name>WebFilm_DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>61435</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44380/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
